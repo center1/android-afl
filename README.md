@@ -13,7 +13,7 @@ android-afl is a modified version of AFL that supports fuzzing on Android, the S
 ## Build
 first, download and build the [Android open-source project (AOSP)][Android open-source project].
 then, download all the android-afl source code to AOSP folder:
-
+```
 export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo/' && \
 repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-9.0.0_r9 && \
 repo sync -j4

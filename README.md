@@ -17,7 +17,6 @@ then, download all the android-afl source code to AOSP folder:
 export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo/' && \
 repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-9.0.0_r9 && \
 repo sync -j4
-
 ```
 cd AOSP
 git clone https://github.com/center1/android-afl

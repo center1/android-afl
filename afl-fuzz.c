@@ -1917,7 +1917,7 @@ static void load_auto(void) {
     u8* fn = alloc_printf("%s/.state/auto_extras/auto_%06u", in_dir, i);
     s32 fd, len;
 
-    fd = open(fn, O_RDONLY, 0600);
+    fd = open(fn, O_RDONLY | O_CREAT, 0600);
 
     if (fd < 0) {
 
